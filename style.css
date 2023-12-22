@@ -5,8 +5,10 @@
     src: url(fontes/idroid.otf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tangerine:wght@400;700&display=swap');
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Bebas Neue", "Times", sans-serif;
 }
 
 header{
@@ -28,7 +30,7 @@ nav > div:hover{
 }
 
 body{
-    background-color: rgb(161, 236, 161);
+    background-color: #c5ebd6;
 }
 
 main{
@@ -68,4 +70,8 @@ footer{
     text-align: center;
     color: white;
     font-weight: lighter;
+}
+
+a{
+    text-decoration: none;
 }
