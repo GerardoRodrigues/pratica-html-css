@@ -35,6 +35,7 @@ header{
 
 header h1{
     font-family: var(--font-destaque);
+    font-weight: normal;
     color: white;
     font-size: 3em;
     margin-bottom: 30px;
@@ -60,7 +61,7 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -121,12 +122,14 @@ main a.externo::after{
 }
 
 main h1{
+    font-weight: normal;
     color: var(--cor5);
     font-family: var(--font-android);
     font-size: 2em;
 }
 
 main h2{
+    font-weight: normal;
     font-family: var(--font-android);
     font-size: 1.5em;
     color: var(--cor4);
@@ -142,6 +145,23 @@ main img.pequena{
     display: block;
     margin: auto;
     max-width: 350px;
+}
+
+div.video{
+    background-color: var(--cor5);
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside{
